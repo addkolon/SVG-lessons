@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e1be71;
+}
+
+svg {
+  flex-shrink: 0;
+  background: white;
+  margin: 2rem 0;
+}
+
+svg circle {
+  fill: red;
+}
+
+svg path {
+  fill: #742748;
+  stroke: #742748;
+}
+
+svg path.no-fill {
+  fill: none;
+}
+/*# sourceMappingURL=basic.css.map */
